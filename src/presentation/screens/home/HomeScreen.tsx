@@ -23,11 +23,11 @@ const HomeScreen = () => {
     <View style={globalStyles.container}>
       <PrimaryButton 
       label='Productos' 
-      onPress={() => navigation.navigate('Products' as never)}
+      onPress={() => navigation.navigate('Products')}
       />
       <PrimaryButton 
       label='Configuración' 
-      onPress={() => navigation.navigate('Settings' as never)}
+      onPress={() => navigation.navigate('Settings')}
       />
     </View>
   )
